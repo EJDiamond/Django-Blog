@@ -119,19 +119,6 @@
                 {% endif %}
                 {% endif %}
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        {% for comment in comments %}
-                        <div class="alert {{ message.tags }} alert-success fade show" id="msg" role="alert">
-                            {{ comment | safe }}
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
-                        ß
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
